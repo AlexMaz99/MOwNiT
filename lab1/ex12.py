@@ -108,16 +108,20 @@ print('Wartość dla 64 bitów: ', original_sum)
 
 print('Błąd bezwzględny:', absolute_error(original_sum, sum32))
 print('Błąd względny:', relative_error(original_sum, sum32) * 100, '%')
+# Błąd względny jest spowodowany dodawaniem bardzo małej liczby do coraz większej sumy.
 
 
 sum3 = recursive_sum(numbers)
 print('Suma obliczona rekurencyjnie: ', sum3)
 print('Błąd bezwzględny: ', absolute_error(original_sum, sum3))
 print('Błąd względny: ', relative_error(original_sum, sum3) * 100, '%')
+#Błąd względny jest równy 0, ponieważ rekurencyjnie dodajemy do siebie bardzo podobne liczby.
+#Bity mantysy nie są tracone.
 
 relative_error_plot(numbers)
 compare_time_iterative_recursive()
 print('Niezerowy błąd: ', not_zero_error(), '%')
+#Jeżeli w tablicy będą obok siebie liczby bardzo duże i bardzo małe to błąd wzrośnie.
 
 kahan_sum = Kahan_sum(numbers, float32)
 original_sum = val * 10 ** 7

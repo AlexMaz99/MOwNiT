@@ -9,14 +9,14 @@ def relative_error(number, approximation):
     return abs(number - approximation) / number
 
 
-def dzeta_riemann_forward(s, n, function):
+def zeta_riemann_forward(s, n, function):
     sum = function(0)
     for k in range(1, n + 1, 1):
         sum += function(1 / (k ** s))
     return sum
 
 
-def dzeta_riemann_backward(s, n, function):
+def zeta_riemann_backward(s, n, function):
     backward_sum = function(0)
     for k in range(n, 0, -1):
         backward_sum += function(1 / (k ** s))
@@ -40,10 +40,10 @@ def eta_dirichlet_backward(s, n, function):
 def compare_precision(tab_n, tab_s):
     for s in tab_s:
         for n in tab_n:
-            riemann_sum32_f = dzeta_riemann_forward(s, n, float32)
-            riemann_sum32_b = dzeta_riemann_backward(s, n, float32)
-            riemann_sum64_f = dzeta_riemann_forward(s, n, float)
-            riemann_sum64_b = dzeta_riemann_backward(s, n, float)
+            riemann_sum32_f = zeta_riemann_forward(s, n, float32)
+            riemann_sum32_b = zeta_riemann_backward(s, n, float32)
+            riemann_sum64_f = zeta_riemann_forward(s, n, float)
+            riemann_sum64_b = zeta_riemann_backward(s, n, float)
             dirichlet_sum32_f = eta_dirichlet_forward(s, n, float32)
             dirichlet_sum32_b = eta_dirichlet_backward(s, n, float32)
             dirichlet_sum64_f = eta_dirichlet_forward(s, n, float)
