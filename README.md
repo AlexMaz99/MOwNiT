@@ -8,3 +8,4 @@ Themes:
 3. [Singular Value Decomposition](../master/lab3/report3.ipynb "Lab 3")
 4. [Search Engine](../master/lab4/report4.ipynb "Lab 4")
 5. [Nonlinear Equations](../master/lab5/report5.ipynb "Lab 5")
+6. [Systems Of Equations](../master/lab6/report6.ipynb "Lab 6")
