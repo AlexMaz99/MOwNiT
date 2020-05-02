@@ -9,3 +9,4 @@ Themes:
 4. [Search Engine](../master/lab4/report4.ipynb "Lab 4")
 5. [Nonlinear Equations](../master/lab5/report5.ipynb "Lab 5")
 6. [Systems Of Equations](../master/lab6/report6.ipynb "Lab 6")
+7. [Spectral decomposition](../master/lab7/report7.ipynb "Lab 7")
