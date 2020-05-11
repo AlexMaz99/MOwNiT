@@ -10,3 +10,4 @@ Themes:
 5. [Nonlinear Equations](../master/lab5/report5.ipynb "Lab 5")
 6. [Systems Of Equations](../master/lab6/report6.ipynb "Lab 6")
 7. [Spectral decomposition](../master/lab7/report7.ipynb "Lab 7")
+8. [Page Rank](../master/lab8/report8.ipynb "Lab 8")
