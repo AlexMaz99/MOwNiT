@@ -11,3 +11,4 @@ Themes:
 6. [Systems Of Equations](../master/lab6/report6.ipynb "Lab 6")
 7. [Spectral decomposition](../master/lab7/report7.ipynb "Lab 7")
 8. [Page Rank](../master/lab8/report8.ipynb "Lab 8")
+9. [QR Factorization](../master/lab9/report9.ipynb "Lab 9")
