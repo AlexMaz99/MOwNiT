@@ -14,4 +14,5 @@ Themes:
 9. [QR Factorization](../master/lab09/report9.ipynb "Lab 9")
 10. [Discrete Fourier Transform](../master/lab10/report10.ipynb "Lab 10")
 11. [Random Number Generator](../master/lab11/report11.ipynb "Lab 11")
-12. [Differential equations and initial value problem](../master/lab12/report12.ipynb "Lab 12")
+12. [Differential Equations and Initial Value Problem](../master/lab12/report12.ipynb "Lab 12")
+13. [Simulated Annealing and Travelling Salesman Problem](../master/lab13/report13.ipynb "Lab 13")
